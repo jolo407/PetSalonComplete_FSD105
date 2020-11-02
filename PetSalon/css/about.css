@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#content h1{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+#content p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+}
+
+.map{
+    height: 200px;
+    padding-left: 6rem;
+    padding-top: 2rem;
+    
+}
+
+@media(min-width:768px){
+    .map{
+        padding-left: 50rem;
+        padding-bottom: 2rem;
+        ;
+    }
+}
